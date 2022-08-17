@@ -1,0 +1,78 @@
+/* Style the header */
+.header {
+    background-color: #63A375;
+    padding: 30px 40px;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    font-family: Verdana, Helvetica, "Trebuchet MS", sans-serif;
+    margin : 2px 2px 5px 2px;
+    max-width: 1400px;
+    height: 150px;
+}
+
+body {
+    font-family: Verdana, Helvetica, "Trebuchet MS", sans-serif;
+    color: #333333;
+    align-content: center;
+}
+
+.bouton {
+    cursor: pointer;
+    border: 4px solid #CA6680; 
+    border-radius: 10%;
+    transition: all 0.5s;
+}
+
+.bouton:active {
+    background-color: #CA6680;
+    color: #ffffff;
+    /* Ajoute un effet que lorsqu'on clic sur le bouton */
+}
+
+ol {
+    background-color: #EDC79B;
+    margin: 2px 2px 5px 2px; ;
+  }
+
+ol li   {
+    border-radius: 5px;
+    background-color: #EDC79B;
+    margin-left : 1px;
+    font-size: 18px;
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+
+ol li:hover {
+    background-color : #D57A66;
+}
+
+.champ {
+    height:20px;
+    width:400px; 
+    border: 4px solid #CA6680; 
+    border-radius: 10%;
+}
+
+
+.done {
+   text-decoration: line-through;
+}
+
+span {
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.corbeille {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.corbeille:hover {
+    transform: rotate(360deg);
+    /* hover tranforme fait tourner l'image */
+}
+
