@@ -23,4 +23,5 @@ This project was created using :
 - Delete already-done tasks by clicking on the waste paper basket
 - Local Storage functionality so we can find our remaining tasks each time we open the website
 
+## Screenshot
 <img width="1395" alt="todolist" src="https://user-images.githubusercontent.com/108081381/185923095-13156fa4-0118-422c-b205-e6acd9be1f3a.png">
